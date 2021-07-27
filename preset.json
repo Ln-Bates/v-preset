@@ -14,6 +14,5 @@
       ]
     }
   },
-  "vueVersion": "3",
   "cssPreprocessor": "dart-sass"
 }

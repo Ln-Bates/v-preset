@@ -1,0 +1,31 @@
+// 文本剪切
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flex{
+  display: flex;
+}
+
+.flex-h-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-v-c {
+  display: flex;
+  align-items: center;
+}
+
+.flex-c-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-c-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

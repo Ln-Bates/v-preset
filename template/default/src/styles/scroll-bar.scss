@@ -1,0 +1,24 @@
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  background: rgba(#000, 0.12);
+
+  &:hover {
+    background: rgba(#000, 0.28);
+  }
+}
+
+*::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  background: rgba(#000, 0.05);
+  border-radius: 5px;
+}

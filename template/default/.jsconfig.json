@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "apis/*": [
+        "src/apis/*"
+      ],
+      "business/*": [
+        "src/components/business/*"
+      ],
+      "public/*": [
+        "src/components/public/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "constant/*": [
+        "src/utils/constant/*"
+      ],
+      "helper/*": [
+        "src/utils/helper/*"
+      ],
+      "tools/*": [
+        "src/utils/tools/*"
+      ],
+      "views/*": [
+        "src/views/*"
+      ],
+      "mixins/*": [
+        "src/resources/mixins/*"
+      ],
+      "plugins/*": [
+        "src/resources/plugins/*"
+      ],
+      "directives/*": [
+        "src/resources/directives*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

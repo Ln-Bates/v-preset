@@ -10,7 +10,7 @@ module.exports = (api, options, rootOptions) => {
   //     "mockjs": "^1.0.1-beta3"
   //   }
   // });
-
+  console.log(options, rootOptions);
   // 安装 vuex
   if (options.test) {
     api.render('./template/test');

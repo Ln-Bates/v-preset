@@ -14,8 +14,6 @@
       ]
     }
   },
-  "vueVersion": {
-    "prompts": true
-  },
+  "vueVersion": "2",
   "cssPreprocessor": "dart-sass"
 }
